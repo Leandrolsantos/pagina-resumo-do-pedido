@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# Projeto CTD - Resumo do Pedido
 ## Tabela de Conteúdo
 
 - [Overview](#overview)
