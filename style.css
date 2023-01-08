@@ -1,8 +1,8 @@
 * {
     margin: 0 auto;
-    padding: 1px;
+    padding: 3px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 main {
-    background: white;
+    background: rgb(19, 52, 103);
     max-width: 420px;
     border-radius: 16px;
 }
@@ -29,7 +29,7 @@ main img {
 main section {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 100%;
     align-items: center;
     justify-content: center;
@@ -38,71 +38,108 @@ main section {
 }
 
 main section h1 {
-    color: hsl(223, 73%, 23%);
+    background: white;
+    color: hsl(19, 92%, 48%);
     margin: 32px 0 16px;
+    border: 5px;
+    padding: 10px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: hsl(19, 92%, 48%);
+    transition: 0.8s all;
 }
 
 main section span {
-    color: hsl(225, 17%, 47%);
+    color: hsl(19, 92%, 48%);
+    padding: 0px;
+    font-size: 27px;
+}
+
+main section p {
+    background: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 4px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: hsl(19, 92%, 48%);
+    padding: 2px 1px;  
 }
 
 main .informa {
-    background: hsl(57, 72%, 67%);
+    background: rgb(255, 255, 255);
     width: 100%;
     display: inline-block;
     align-items: center;
     justify-content: right;
-    border-radius: 10px;
-    padding: 2px 1px;
+    padding: 14px 1px;
     margin: 16px 0;
+    border: 3px;
+    border-style: groove;
+    border-radius: 10px;
+    border-color: hsl(19, 92%, 48%);
 }
 
 main .informa .musica {
     display: inline-block;
     align-items: center;
+    padding: 5px;
 }
 
 main .informa .preco {
     display: inline-block;
-    flex-direction: column;
+    padding: 28px;
+    margin: 5px;
+}
+
+.preco-ano:hover {
+    transform:scale(1.1);
+}
+
+main h2 {
+    color:rgb(233, 10, 10);
 }
 
 main .informa .musica img {
     width: 50px;
-    margin: 0 1rem 0 0;
-}
-
-main .informa .musica img {
-    width: 50px;
-    margin: 0 1rem 0 0;
+    margin: -19px auto;
 }
 
 main button {
     background: hsl(245, 75%, 52%);
     color: white;
-    width: 100%;
+    width: 55%;
     font-weight: 700;
     cursor: pointer;
-    border-radius: 0.8rem;
-    border: none;
+    border-radius: 9px;
     box-shadow: 0px 20px 20px hsla(245, 75%, 52%, 0.3);
     padding: 1rem 0;
     margin: 0 0 1.5rem;    
     transition: color 0.4s;
+    transition: 0.8s all;
 }
 
 .alterar:hover {
-    color: rgba(239, 88, 12, 0.784);
+    color: rgba(255, 251, 0, 0.993);
     font-weight: bold;
-    
+    transform: scale(1.1);
 }
 
 .pagamento:hover {
     color: rgb(11, 233, 29);
     font-weight: bold;
+    transform: scale(1.1);
 }
 
 .cancelar:hover {
     color: red;
     font-weight: bolder;
+    transform: scale(1.1);
 }
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+    }
+} 
