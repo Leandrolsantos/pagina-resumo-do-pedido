@@ -13,6 +13,7 @@ Projeto realizado com base no desafio do site Front-end Mentor. Fiz várias modi
 
 ### Desafios e Objetivos
 Maior desafio foi centralizar e usar o CSS para que o site ficasse com uma aparência mais limpa. Foram muitos detalhes para serem alterados, mas no final consegui chegar no resultado desejado. Objetivo foi criar uma página web com botões responsivos usando CSS e melhorar a estrutura do HTML.
+
 ### Criado com:
 - HTML5
 - CSS
